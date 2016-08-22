@@ -3,8 +3,8 @@ Rails.application.configure do
 
   # Code is not reloaded between requests.
   config.cache_classes = true
-  config.secret_key_base = ENV["SECRET_KEY_BASE"]
-  config.secret_token = ENV["SECRET_TOKEN"]
+  config.secret_key_base = '8d606ec7e6cf4e609c70f1ed610031279196d0bfec3a85920a9c31d47bf4fe766f707652c2ba95b0c883bd95b94c919954d0839a982d20a44f5bc1e22c9d5701'
+  config.secret_token = '8ba43240620eda5842cb2bc1c7f245a1a54c323db183530cdbbb93f90a997b96f747e4a4215ab486819c6e27439ef8f94ad3676499968f5b7159ccd13330102f'
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both threaded web servers
   # and those relying on copy on write to perform better.
